@@ -1,0 +1,21 @@
+>>> temperature top_p top_k
+It looks like you're interested in discussing temperature, top-p, and top-k in the context of language models!
+
+**Temperature**: In a language model, temperature controls the randomness or uncertainty of the generated text. A higher 
+temperature means the model is more likely to take risks and generate more novel or unexpected text. A lower temperature means the 
+model is more conservative and generates text that is closer to the training data.
+
+**Top-P (Permutation)**: Top-p refers to the permutation operation used in sampling from a probability distribution. In language 
+models, top-p sampling involves selecting the p most probable words or tokens and then randomly permuting them to generate new 
+text. This can help introduce more variety and diversity into the generated text.
+
+**Top-K (K-Top)**: Top-k refers to the k most likely tokens or words in a probability distribution. In language models, top-k 
+sampling involves selecting the k most probable tokens and then generating text using these tokens. This can help generate 
+coherent and grammatically correct text that is similar to the training data.
+
+These three concepts are often used together to control the generation of text by language models. By adjusting temperature, 
+top-p, and top-k, you can influence the trade-off between coherence, diversity, and creativity in the generated text.
+
+For example, you might use a higher temperature and top-p (e.g., 0.5) to generate more novel and unexpected text, while using a 
+lower temperature and top-k (e.g., 10) to generate more coherent and grammatically correct text that is similar to the training 
+data.
